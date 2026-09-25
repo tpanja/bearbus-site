@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BearBus Support</title>
+<style>
+  :root { --bg: #ffffff; --text: #231a15; --muted: #736660; --brand: #4e3629; --line: #e0dcd7; --accent: #c8102e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121110; --text: #f5f1ee; --muted: #b3aba5; --brand: #c79a73; --line: #3a3633; --accent: #e0455a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { color: var(--brand); font-size: 34px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  p, li { color: var(--text); }
+  .lede { color: var(--muted); margin-top: 0; }
+  a { color: var(--accent); }
+  .contact { border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; margin: 24px 0; }
+  footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>BearBus Support</h1>
+  <p class="lede">Live campus shuttle tracking, arrival times, and door-to-door directions.</p>
+
+  <div class="contact">
+    <strong>Contact</strong><br>
+    Email <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>. We usually reply within two days.<br>
+    You can also send feedback from the Feedback tab inside the app.
+  </div>
+
+  <h2>Common questions</h2>
+
+  <p><strong>Why is a bus missing from the map?</strong><br>
+  BearBus shows buses that are reporting their position right now. A bus that is out of service, or has not reported recently, is not shown.</p>
+
+  <p><strong>How are arrival times worked out?</strong><br>
+  From each bus's live position, using a prediction model trained on real shuttle trips. Times update as the bus moves. If one looks wrong, please report it from the Feedback tab. Those reports are how the predictions improve.</p>
+
+  <p><strong>Why does BearBus want my location?</strong><br>
+  To show where you are on the map, work out how long it takes you to walk to each stop, and tell when you have boarded a bus so it can alert you before your stop. Location is used in the background only while you are following a trip or tracking a ride. See the <a href="privacy.html">privacy policy</a>.</p>
+
+  <p><strong>The "buzz before my stop" didn't go off.</strong><br>
+  Check that notifications and location are allowed for BearBus in Settings, and that the trip was still running when you boarded.</p>
+
+  <p><strong>My location dot isn't showing.</strong><br>
+  Go to Settings → Privacy &amp; Security → Location Services → BearBus and choose "While Using the App".</p>
+
+  <footer>
+    BearBus is an independent app and is not affiliated with or endorsed by Brown University.<br>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
